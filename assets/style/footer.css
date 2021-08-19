@@ -167,6 +167,13 @@
 }
 /* Query */
 @media (max-width: 1024px) and (min-width: 320px) {
+  .footer_container .section1_container {
+    background: #fbc02d;
+    padding-bottom: 2rem;
+  }
+  .footer_container .footer_main_section_2_inner_image{
+    padding-top: 20px;
+  }
   .footer_main .footer_main_image {
     padding-right: 0;
   }
