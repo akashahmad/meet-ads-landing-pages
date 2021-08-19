@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./assets/style/index.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+    <div>
+      <!-- header -->
+      <div class="landing_pageHeader_container bg_gray1">
+        <div class="logo_links_container container_auto">
+          <!-- left side -->
+          <div class="left_side">
+            <img src="./assets/images/logo2.png" alt="logo" class="h_80px" />
+          </div>
+          <!-- right side -->
+          <div class="right_side_container">
+            <div class="show_hide">
+              <ul
+                class="
+                  d_flex
+                  justify_between
+                  list_none
+                  text_darkblue
+                  items_center
+                  font_medium
+                "
+              >
+                <li class="cursor_pointer">
+                  <a href="index.html">Home</a>
+                </li>
+                <li class="cursor_pointer">
+                  <a href="services.html">Services</a>
+                </li>
+                <li class="cursor_pointer">
+                  <a href="pricing.html" class="text_yellow2">Pricing</a>
+                </li>
+                <li class="cursor_pointer">About us</li>
+                <ul class="list_none d_flex items_center">
+                  <li class="button_container">
+                    <button class="btn1 cursor_pointer">Platform Login</button>
+                  </li>
+                  <li class="button_container">
+                    <button class="btn2 bg_darkblue cursor_pointer">
+                      Get Started
+                    </button>
+                  </li>
+                </ul>
+              </ul>
+            </div>
+            <div class="smScreen_show">
+              <div class="w_100per d_flex justify_end hamburger">
+                <span onclick="openNav()">&#9776;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- reponsive navigation -->
+        <div class="reponsive_container">
+          <div class="sidenav" id="mySidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="pricing.html">Pricing</a>
+            <a>About Us</a>
+            <a href="#">Platform Login</a>
+            <a href="#">Get Started</a>
+          </div>
+        </div>
+      </div>
+      <div class="prices_container px-0">
+        <!-- section1 -->
+        <div class="bg_gray1 section1_container">
+          <div class="container_auto">
+            <!-- title -->
+            <div
+              class="title_content_container d_flex flex_column items_center"
+            >
+              <h3 class="title" data-aos="fade-down">Pricing Plans</h3>
+              <div class="content_container">
+                <p class="text_darkblue2" data-aos="fade-down">
+                  Lorem ipsum dolor sit amet, consectetur adipis cing elit. nunc
+                  non risus condiment lobortis eni m at, ef sollicitudin risus.
+                  morbi dsfg nunc non risus condimen. r adipis cing elit. nunc
+                  nonarehhsh
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- section2 -->
+        <div class="bg-white section2_container">
+          <div class="container_auto">
+            <!-- content -->
+            <div class="box_container" data-aos="fade-up">
+              <!-- box1 -->
+              <div class="common_single_box_container">
+                <div class="common_box">
+                  <div class="title_content">
+                    <h4>Silver</h4>
+                    <p>Lorem ipsum dolor sit</p>
+                  </div>
+                  <div class="title_content padding_tb">
+                    <h4>$30</h4>
+                    <p>Per agent per month</p>
+                  </div>
+                  <div class="button_container">
+                    <button class="text_darkblue2">Subscribe</button>
+                  </div>
+                  <div class="image_title_container">
+                    <div class="image_title">
+                      <img
+                        src="./assets/images/Path83040@3x.png"
+                        class="h_14px"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div class="image_title">
+                      <img
+                        src="./assets/images/Path83040@3x.png"
+                        class="h_14px"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div class="image_title">
+                      <img
+                        src="./assets/images/Path83040@3x.png"
+                        class="h_14px"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                  </div>
+                  <!-- hr line -->
+                  <div class="hr_line"></div>
+                  <div class="plusImg_title_container">
+                    <div class="plusImg_title">
+                      <img
+                        src="./assets/images/goldenPlus.png"
+                        class="h_40px goldenPlus"
+                        alt=""
+                      />
+                      <img
+                        src="./assets/images/whitePlus.png"
+                        class="h_40px whitePlus"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div class="plusImg_title">
+                      <img
+                        src="./assets/images/goldenPlus.png"
+                        class="h_40px goldenPlus"
+                        alt=""
+                      />
+                      <img
+                        src="./assets/images/whitePlus.png"
+                        class="h_40px whitePlus"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div class="plusImg_title">
+                      <img
+                        src="./assets/images/goldenPlus.png"
+                        class="h_40px goldenPlus"
+                        alt=""
+                      />
+                      <img
+                        src="./assets/images/whitePlus.png"
+                        class="h_40px whitePlus"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div class="plusImg_title">
+                      <img
+                        src="./assets/images/goldenPlus.png"
+                        class="h_40px goldenPlus"
+                        alt=""
+                      />
+                      <img
+                        src="./assets/images/whitePlus.png"
+                        class="h_40px whitePlus"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- box2 -->
+              <div class="common_single_box_container">
+                <div class="common_box">
+                  <div class="title_content">
+                    <h4>Silver</h4>
+                    <p>Lorem ipsum dolor sit</p>
+                  </div>
+                  <div class="title_content padding_tb">
+                    <h4>$30</h4>
+                    <p>Per agent per month</p>
+                  </div>
+                  <div class="button_container">
+                    <button class="text_darkblue2">Subscribe</button>
+                  </div>
+                  <div class="image_title_container">
+                    <div class="image_title">
+                      <img
+                        src="./assets/images/Path83040@3x.png"
+                        class="h_14px"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div class="image_title">
+                      <img
+                        src="./assets/images/Path83040@3x.png"
+                        class="h_14px"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div class="image_title">
+                      <img
+                        src="./assets/images/Path83040@3x.png"
+                        class="h_14px"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                  </div>
+                  <!-- hr line -->
+                  <div class="hr_line"></div>
+                  <div class="plusImg_title_container">
+                    <div class="plusImg_title">
+                      <img
+                        src="./assets/images/goldenPlus.png"
+                        class="h_40px goldenPlus"
+                        alt=""
+                      />
+                      <img
+                        src="./assets/images/whitePlus.png"
+                        class="h_40px whitePlus"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div class="plusImg_title">
+                      <img
+                        src="./assets/images/goldenPlus.png"
+                        class="h_40px goldenPlus"
+                        alt=""
+                      />
+                      <img
+                        src="./assets/images/whitePlus.png"
+                        class="h_40px whitePlus"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div class="plusImg_title">
+                      <img
+                        src="./assets/images/goldenPlus.png"
+                        class="h_40px goldenPlus"
+                        alt=""
+                      />
+                      <img
+                        src="./assets/images/whitePlus.png"
+                        class="h_40px whitePlus"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div class="plusImg_title">
+                      <img
+                        src="./assets/images/goldenPlus.png"
+                        class="h_40px goldenPlus"
+                        alt=""
+                      />
+                      <img
+                        src="./assets/images/whitePlus.png"
+                        class="h_40px whitePlus"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- box3 -->
+              <div class="common_single_box_container">
+                <div class="common_box">
+                  <div class="title_content">
+                    <h4>Silver</h4>
+                    <p>Lorem ipsum dolor sit</p>
+                  </div>
+                  <div class="title_content padding_tb">
+                    <h4>$30</h4>
+                    <p>Per agent per month</p>
+                  </div>
+                  <div class="button_container">
+                    <button class="text_darkblue2">Subscribe</button>
+                  </div>
+                  <div class="image_title_container">
+                    <div class="image_title">
+                      <img
+                        src="./assets/images/Path83040@3x.png"
+                        class="h_14px"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div class="image_title">
+                      <img
+                        src="./assets/images/Path83040@3x.png"
+                        class="h_14px"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div class="image_title">
+                      <img
+                        src="./assets/images/Path83040@3x.png"
+                        class="h_14px"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                  </div>
+                  <!-- hr line -->
+                  <div class="hr_line"></div>
+                  <div class="plusImg_title_container">
+                    <div class="plusImg_title">
+                      <img
+                        src="./assets/images/goldenPlus.png"
+                        class="h_40px goldenPlus"
+                        alt=""
+                      />
+                      <img
+                        src="./assets/images/whitePlus.png"
+                        class="h_40px whitePlus"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div class="plusImg_title">
+                      <img
+                        src="./assets/images/goldenPlus.png"
+                        class="h_40px goldenPlus"
+                        alt=""
+                      />
+                      <img
+                        src="./assets/images/whitePlus.png"
+                        class="h_40px whitePlus"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div class="plusImg_title">
+                      <img
+                        src="./assets/images/goldenPlus.png"
+                        class="h_40px goldenPlus"
+                        alt=""
+                      />
+                      <img
+                        src="./assets/images/whitePlus.png"
+                        class="h_40px whitePlus"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div class="plusImg_title">
+                      <img
+                        src="./assets/images/goldenPlus.png"
+                        class="h_40px goldenPlus"
+                        alt=""
+                      />
+                      <img
+                        src="./assets/images/whitePlus.png"
+                        class="h_40px whitePlus"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- box 4 -->
+              <div class="common_single_box_container">
+                <div class="common_box">
+                  <div class="title_content">
+                    <h4>Silver</h4>
+                    <p>Lorem ipsum dolor sit</p>
+                  </div>
+                  <div class="title_content padding_tb">
+                    <h4>$30</h4>
+                    <p>Per agent per month</p>
+                  </div>
+                  <div class="button_container">
+                    <button class="text_darkblue2">Subscribe</button>
+                  </div>
+                  <div class="image_title_container">
+                    <div class="image_title">
+                      <img
+                        src="./assets/images/Path83040@3x.png"
+                        class="h_14px"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div class="image_title">
+                      <img
+                        src="./assets/images/Path83040@3x.png"
+                        class="h_14px"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div class="image_title">
+                      <img
+                        src="./assets/images/Path83040@3x.png"
+                        class="h_14px"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                  </div>
+                  <!-- hr line -->
+                  <div class="hr_line"></div>
+                  <div class="plusImg_title_container">
+                    <div class="plusImg_title">
+                      <img
+                        src="./assets/images/goldenPlus.png"
+                        class="h_40px goldenPlus"
+                        alt=""
+                      />
+                      <img
+                        src="./assets/images/whitePlus.png"
+                        class="h_40px whitePlus"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div class="plusImg_title">
+                      <img
+                        src="./assets/images/goldenPlus.png"
+                        class="h_40px goldenPlus"
+                        alt=""
+                      />
+                      <img
+                        src="./assets/images/whitePlus.png"
+                        class="h_40px whitePlus"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div class="plusImg_title">
+                      <img
+                        src="./assets/images/goldenPlus.png"
+                        class="h_40px goldenPlus"
+                        alt=""
+                      />
+                      <img
+                        src="./assets/images/whitePlus.png"
+                        class="h_40px whitePlus"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div class="plusImg_title">
+                      <img
+                        src="./assets/images/goldenPlus.png"
+                        class="h_40px goldenPlus"
+                        alt=""
+                      />
+                      <img
+                        src="./assets/images/whitePlus.png"
+                        class="h_40px whitePlus"
+                        alt=""
+                      />
+                      <p class="text_darkblue2">Lorem ipsum dolor sit</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- section3 -->
+        <div class="home_container">
+          <div class="section_contact_us common_contact-Container">
+            <!-- left side -->
+            <div class="section_contact_us_left_side">
+              <div>
+                <!-- title -->
+                <div
+                  class="section_contact_us_left_side_heading"
+                  data-aos=" fade-up"
+                >
+                  <h4>Faq</h4>
+                </div>
+                <div data-aos="fade-up">
+                  <!-- collapse 1-->
+                  <div
+                    class="
+                      common_collapse
+                      section_contact_us_common_collapse
+                      section_contact_us_bg__bg_gray
+                      inActive
+                    "
+                    onclick="div1Function('1')"
+                    id="collapse1"
+                  >
+                    <!-- header -->
+                    <div class="section_contact_us_header">
+                      <p>Lorem ipsum dolor sit amet?</p>
+                      <div>
+                        <img
+                          id="imga1"
+                          src="./assets/images/downArrow.png"
+                          alt=""
+                          class="h_10px imga1"
+                        />
+                        <img
+                          id="imga2"
+                          src="./assets/images/upArrow.png"
+                          alt=""
+                          class="h_10px imga2"
+                        />
+                      </div>
+                    </div>
+                    <!-- body -->
+                    <div class="contact_us_body_description bodya" id="div1">
+                      <p class="text_darkblue2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam
+                      </p>
+                    </div>
+                  </div>
+                  <!-- collapse 2-->
+                  <div
+                    class="
+                      common_collapse
+                      section_contact_us_common_collapse
+                      section_contact_us_bg__bg_gray
+                      inActive
+                    "
+                    onclick="div1Function('2')"
+                    id="collapse2"
+                  >
+                    <!-- header -->
+                    <div class="section_contact_us_header">
+                      <p class="font-bold text-base">
+                        Lorem ipsum dolor sit amet?
+                      </p>
+                      <div class="">
+                        <img
+                          src="./assets/images/downArrow.png"
+                          alt=""
+                          class="h_10px imgb1"
+                        />
+                        <img
+                          id="div2"
+                          src="./assets/images/upArrow.png"
+                          alt=""
+                          class="h_10px imgb2"
+                        />
+                      </div>
+                    </div>
+                    <!-- body -->
+                    <div class="contact_us_body_description body2">
+                      <p class="text_darkblue2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam
+                      </p>
+                    </div>
+                  </div>
+                  <!-- collapse 3-->
+                  <div
+                    class="
+                      common_collapse
+                      section_contact_us_common_collapse
+                      section_contact_us_bg__bg_gray
+                      inActive
+                    "
+                    onclick="div1Function('3')"
+                    id="collapse3"
+                  >
+                    <!-- header -->
+                    <div class="section_contact_us_header">
+                      <p class="font-bold text-base">
+                        Lorem ipsum dolor sit amet?
+                      </p>
+                      <div class="">
+                        <img
+                          src="./assets/images/downArrow.png"
+                          alt=""
+                          class="h_10px imgc1"
+                        />
+                        <img
+                          *ngIf="div3"
+                          src="./assets/images/upArrow.png"
+                          alt=""
+                          class="h_10px imgc2"
+                        />
+                      </div>
+                    </div>
+                    <!-- body -->
+                    <div class="contact_us_body_description bodyc" id="div3">
+                      <p class="text_darkblue2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam
+                      </p>
+                    </div>
+                  </div>
+                  <!-- collapse 4-->
+                  <div
+                    class="
+                      common_collapse
+                      section_contact_us_common_collapse
+                      section_contact_us_bg__bg_gray
+                      inActive
+                    "
+                    onclick="div1Function('4')"
+                    id="collapse4"
+                  >
+                    <!-- header -->
+                    <div class="section_contact_us_header">
+                      <p class="font-bold text-base">
+                        Lorem ipsum dolor sit amet?
+                      </p>
+                      <div class="">
+                        <img
+                          src="./assets/images/downArrow.png"
+                          alt=""
+                          class="h_10px imgd1"
+                        />
+                        <img
+                          id="div4"
+                          src="./assets/images/upArrow.png"
+                          alt=""
+                          class="h_10px imgd2"
+                        />
+                      </div>
+                    </div>
+                    <!-- body -->
+                    <div class="contact_us_body_description bodyd" id="div4">
+                      <p class="text_darkblue2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- address content -->
+                <div
+                  class="section_contact_us_left_side_adress_content"
+                  data-aos="fade-up"
+                >
+                  <h4>Location</h4>
+                  <div
+                    class="
+                      section_contact_us_left_side_adress_content_google_map
+                    "
+                  >
+                    <!-- left side -->
+                    <div class="section_contact_us_left_side_google_map_image">
+                      <img
+                        src="./assets/images/NoPath-Copy(40)@3x.png"
+                        alt=""
+                      />
+                    </div>
+                    <!-- right side -->
+                    <div class="contact_us_google_map_inner">
+                      <div class="contact_us_google_map_inner_heading">
+                        <img
+                          src="./assets/images/pin(1).png"
+                          alt=""
+                          class="h_18px"
+                        />
+                        <p>Google Maps</p>
+                      </div>
+                      <div class="contact_us_google_map_inner__address">
+                        <p>2068 Tea Berry Lane, Grandview Wisconsin</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- right side -->
+            <div class="section_contact_us_right_side">
+              <div>
+                <!-- title -->
+                <div
+                  class="section_contact_us_right_side_inner"
+                  data-aos="fade-left"
+                >
+                  <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco
+                  </p>
+                </div>
+                <!-- content and button -->
+                <div
+                  data-aos="fade-left"
+                  class="section_contact_us_right_side_button_content"
+                >
+                  <div class="w-7/12 lg:w-4/12 xl:w-4/12">
+                    <button
+                      class="section_contact_us_right_side_contact_button"
+                    >
+                      <span
+                        ><img
+                          src="./assets/images/phone.png"
+                          alt=""
+                          class="h_14px"
+                      /></span>
+                      <span class="padding-left: 1rem;">12334345346</span>
+                    </button>
+                  </div>
+                  <div class="section_contact_us_right_side_contact_mail_main">
+                    <button class="text_darkblue2">
+                      <img
+                        src="./assets/images/Group39782@3x.png"
+                        alt=""
+                        class="h_14px"
+                      />
+                      <span>test@gmail.com</span>
+                    </button>
+                  </div>
+                </div>
+                <!-- form -->
+                <div
+                  class="section_contact_us_right_side_form_container"
+                  data-aos="fade-left"
+                >
+                  <div
+                    class="
+                      section_contact_us_right_side_form_inner
+                      bg_darkblue2
+                    "
+                  >
+                    <form class="section_contact_us_right_side_form_main">
+                      <!-- title -->
+                      <div class="section_contact_us_right_side_form_title">
+                        <h4 class="text-yellow-500 py-3 text-2xl">
+                          Contact Us
+                        </h4>
+                      </div>
+                      <!-- name -->
+                      <div class="padding-y-2">
+                        <input
+                          class="section_contact_us_right_side_form_input"
+                          placeholder="Name"
+                        />
+                      </div>
+                      <!-- Email Id -->
+                      <div class="padding-y-2">
+                        <input
+                          class="section_contact_us_right_side_form_input"
+                          placeholder="Email ID"
+                        />
+                      </div>
+                      <!-- Phone Number -->
+                      <div class="padding-y-2">
+                        <input
+                          class="section_contact_us_right_side_form_input"
+                          placeholder="Phone Number"
+                        />
+                      </div>
+                      <!-- Message -->
+                      <div class="padding-y-2">
+                        <textarea
+                          class="section_contact_us_right_side_form_input"
+                          placeholder="Message"
+                          rows="5"
+                        ></textarea>
+                      </div>
+                      <div class="section_contact_us_right_side_form_button">
+                        <button class="padding-y-2">Submit</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <div class="footer_container">
+        <!-- section1 -->
+        <div class="section1_container">
+          <div class="footer_main container_auto">
+            <h3 class="footer_main_heading text_darkblue2">
+              This is some text description to captivate user attention
+            </h3>
+            <div class="footer_main_description">
+              <p class="text_darkblue2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea
+              </p>
+            </div>
+            <div class="footer_main_button">
+              <button class="text_darkblue2">Get Started</button>
+            </div>
+            <div class="footer_main_image">
+              <img
+                src="./assets/images/Group39783@3x.png"
+                alt=""
+                class="h_100px"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- section2 -->
+        <div
+          class="
+            footer_main_section_2
+            section2_container
+            container_auto
+            footer_section2_container
+          "
+        >
+          <div class="footer_main_section_2_inner">
+            <div class="footer_main_section_2_inner_image">
+              <img src="./assets/images/logo.png" class="h_100px" alt="" />
+            </div>
+            <div class="footer_main_section_2_list_main">
+              <!-- 1st -->
+              <div class="footer_main_section_2_list_inner">
+                <div>
+                  <h1
+                    class="footer_main_section_2_list_inner_heading text_gray2"
+                  >
+                    PRODUCT
+                  </h1>
+                </div>
+                <div class="footer_main_section_2_list_first">
+                  <ul>
+                    <li class="opacity_8">Features</li>
+                    <li class="opacity_8">Why Tellero</li>
+                    <li class="opacity_8">FAQ</li>
+                    <li class="opacity_8">Pricing</li>
+                    <li class="opacity_8">Integrations</li>
+                    <li class="opacity_8">Security</li>
+                    <li class="opacity_8">Status</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- 2nd -->
+              <div class="footer_main_section_2_list_inner">
+                <div>
+                  <h1
+                    class="footer_main_section_2_list_inner_heading text_gray2"
+                  >
+                    RESOURCES
+                  </h1>
+                </div>
+                <div class="footer_main_section_2_list_first">
+                  <ul>
+                    <li class="text-sm">Blog</li>
+                    <li class="text-sm">Help Centre</li>
+                    <li class="text-sm">Partners</li>
+                    <li class="text-sm">Customers</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- 3rd -->
+              <div class="footer_main_section_2_list_inner">
+                <div>
+                  <h1
+                    class="footer_main_section_2_list_inner_heading text_gray2"
+                  >
+                    COMPANY
+                  </h1>
+                </div>
+                <div class="footer_main_section_2_list_first">
+                  <ul>
+                    <li class="opacity_8">About us</li>
+                    <li class="opacity_8">Careers</li>
+                    <li class="opacity_8">Press</li>
+                    <li class="opacity_8">Legal</li>
+                    <li class="opacity_8">Referrals</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- 4th -->
+              <div class="footer_main_section_2_list_inner">
+                <div>
+                  <h1
+                    class="footer_main_section_2_list_inner_heading text_gray2"
+                  >
+                    LEGAL
+                  </h1>
+                </div>
+                <div class="footer_main_section_2_list_first">
+                  <ul>
+                    <li class="opacity_8">Terms of service</li>
+                    <li class="opacity_8">Privacy policy</li>
+                    <li class="opacity_8">Fraud awareness</li>
+                    <li class="opacity_8">Complaints process</li>
+                    <li class="opacity_8">GDPR</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="section2_hr"></div>
+            <div
+              class="
+                footer_main_section_2_social_media_icon
+                links_img_container
+              "
+            >
+              <div
+                class="
+                  footer_main_section_2_social_media_icon_image
+                  img_container
+                "
+              >
+                <img
+                  src="./assets/images/ins1.png"
+                  alt=""
+                  class="h_25px hover_inActive"
+                />
+                <img
+                  src="./assets/images/instWhite.png"
+                  alt=""
+                  class="h_25px activeImg"
+                />
+              </div>
+              <div
+                class="
+                  img_container
+                  footer_main_section_2_social_media_icon_image
+                "
+              >
+                <img
+                  src="./assets/images/web1.png"
+                  alt=""
+                  class="h_25px hover_inActive"
+                />
+                <img
+                  src="./assets/images/webWhite.png"
+                  alt=""
+                  class="h_25px activeImg"
+                />
+              </div>
+              <div
+                class="
+                  img_container
+                  footer_main_section_2_social_media_icon_image
+                "
+              >
+                <img
+                  src="./assets/images/t1.png"
+                  alt=""
+                  class="h_20px hover_inActive"
+                />
+                <img
+                  src="./assets/images/twitWhite.png"
+                  alt=""
+                  class="h_20px activeImg"
+                />
+              </div>
+              <div
+                class="
+                  img_container
+                  footer_main_section_2_social_media_icon_image
+                "
+              >
+                <img
+                  src="./assets/images/you1.png"
+                  alt=""
+                  class="h_18px hover_inActive"
+                />
+                <img
+                  src="./assets/images/youtWhite.png"
+                  alt=""
+                  class="h_18px activeImg"
+                />
+              </div>
+            </div>
+            <div class="footer_main_description_bottom">
+              <p class="opacity_8">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
+              <p class="footer_padding_bottom opacity_8">
+                All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+            var activeCollapse = "";
+      var id = "";
+      var div1 = document.getElementById("div1");
+      var div2 = document.getElementById("div2");
+      var div3 = document.getElementById("div3");
+      var div4 = document.getElementById("div4");
+      var element1 = document.getElementById("collapse1");
+      var element2 = document.getElementById("collapse2");
+      var element3 = document.getElementById("collapse3");
+      var element4 = document.getElementById("collapse4");
+      function div1Function(value) {
+        if (value == "1") {
+          if (activeCollapse != "1") {
+            activeCollapse = "1";
+            element1.classList.add("section_contact_us_bg_yellow");
+            element1.classList.remove("section_contact_us_bg__bg_gray");
+            element1.classList.add("active");
+            element1.classList.remove("inActive");
+            element2.classList.add("section_contact_us_bg__bg_gray");
+            element2.classList.remove("section_contact_us_bg_yellow");
+            element2.classList.remove("active");
+            element2.classList.add("inActive");
+            element3.classList.add("section_contact_us_bg__bg_gray");
+            element3.classList.remove("section_contact_us_bg_yellow");
+            element3.classList.remove("active");
+            element3.classList.add("inActive");
+            element4.classList.add("section_contact_us_bg__bg_gray");
+            element4.classList.remove("section_contact_us_bg_yellow");
+            element4.classList.remove("active");
+            element4.classList.add("inActive");
+            // div1.style.display = "block";
+            // div2.style.display = "none";
+            // div3.style.display = "none";
+            // div4.style.display = "none";
+          } else {
+            activeCollapse = "0";
+            element1.classList.remove("section_contact_us_bg_yellow");
+            element1.classList.add("section_contact_us_bg__bg_gray");
+            element1.classList.remove("active");
+            element1.classList.add("inActive");
+          }
+        } else if (value === "2") {
+          if (activeCollapse !== "2b") {
+            activeCollapse = "2b";
+            element1.classList.remove("section_contact_us_bg_yellow");
+            element1.classList.add("section_contact_us_bg__bg_gray");
+            element1.classList.remove("active");
+            element1.classList.add("inActive");
+            element2.classList.add("section_contact_us_bg_yellow");
+            element2.classList.remove("section_contact_us_bg__bg_gray");
+            element2.classList.add("active");
+            element2.classList.remove("inActive");
+            element3.classList.add("section_contact_us_bg__bg_gray");
+            element3.classList.remove("section_contact_us_bg_yellow");
+            element3.classList.remove("active");
+            element3.classList.add("inActive");
+            element4.classList.add("section_contact_us_bg__bg_gray");
+            element4.classList.remove("section_contact_us_bg_yellow");
+            element4.classList.remove("active");
+            element4.classList.add("inActive");
+          } else {
+            activeCollapse == "2";
+            element2.classList.add("section_contact_us_bg__bg_gray");
+            element2.classList.remove("section_contact_us_bg_yellow");
+            element2.classList.remove("active");
+            element2.classList.add("inActive");
+          }
+        } else if (value === "3") {
+          if (activeCollapse !== "3c") {
+            activeCollapse = "3c";
+            element1.classList.remove("section_contact_us_bg_yellow");
+            element1.classList.add("section_contact_us_bg__bg_gray");
+            element1.classList.remove("active");
+            element1.classList.add("inActive");
+            element2.classList.remove("section_contact_us_bg_yellow");
+            element2.classList.add("section_contact_us_bg__bg_gray");
+            element2.classList.remove("active");
+            element2.classList.add("inActive");
+            element3.classList.remove("section_contact_us_bg__bg_gray");
+            element3.classList.add("section_contact_us_bg_yellow");
+            element3.classList.add("active");
+            element3.classList.remove("inActive");
+            element4.classList.add("section_contact_us_bg__bg_gray");
+            element4.classList.remove("section_contact_us_bg_yellow");
+            element4.classList.remove("active");
+            element4.classList.add("inActive");
+          } else {
+            activeCollapse = "3";
+            element3.classList.add("section_contact_us_bg__bg_gray");
+            element3.classList.remove("section_contact_us_bg_yellow");
+            element3.classList.remove("active");
+            element3.classList.add("inActive");
+          }
+        } else if (value === "4") {
+          if (activeCollapse !== "4d") {
+            activeCollapse = "4d";
+            element1.classList.remove("section_contact_us_bg_yellow");
+            element1.classList.add("section_contact_us_bg__bg_gray");
+            element1.classList.remove("active");
+            element1.classList.add("inActive");
+            element2.classList.remove("section_contact_us_bg_yellow");
+            element2.classList.add("section_contact_us_bg__bg_gray");
+            element2.classList.remove("active");
+            element2.classList.add("inActive");
+            element3.classList.add("section_contact_us_bg__bg_gray");
+            element3.classList.remove("section_contact_us_bg_yellow");
+            element3.classList.remove("active");
+            element3.classList.add("inActive");
+            element4.classList.remove("section_contact_us_bg__bg_gray");
+            element4.classList.add("section_contact_us_bg_yellow");
+            element4.classList.add("active");
+            element4.classList.remove("inActive");
+            div1.style.display = "none";
+          } else {
+            activeCollapse = "4";
+            element4.classList.remove("section_contact_us_bg_yellow");
+            element4.classList.add("section_contact_us_bg__bg_gray");
+            element4.classList.remove("active");
+            element4.classList.add("inActive");
+            div1.style.display = "none";
+          }
+        }
+      }
+  
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+
+      AOS.init({
+        duration: 1500,
+      });
+    </script>
+  </body>
+</html>
